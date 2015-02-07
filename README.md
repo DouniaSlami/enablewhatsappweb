@@ -1,11 +1,11 @@
-enablegoogleinbox
-=================
+Enable WhatsApp Web extension
+=============================
 
-A Firefox addon to disable the checks Google put in place to disallow Firefox users from viewing Google Inbox.
+A Firefox addon to disable the checks WhatsApp put in place to disallow Firefox users from using WhatsApp Web.
+Heavily based on "enablegoogleinbox", a similar addon for Google's Inbox service. Thanks @h4writer for writing it!
 
 Technical details:
-- Google uses User Agent testing to show a "not supported" message to the Firefox browser. This addon spoofs to be Google Chrome for the Google Inbox page, fixing this issue.
-- Google uses Content-Security-Policy header for safety. But due to a different implementation it allows "blob:" by default. Firefox is a bit more strict and "blob:" also needs to get specified, before allowing. This addon adjusts this header to include "blob:"
+- WhatsApp uses User Agent testing to show a "not supported" message to the Firefox browser. This addon spoofs to be Google Chrome for the WhatsApp Web page, fixing this issue.
 
 Issues:
-- I tested this in FF24 / FF30 / FF38 (w/wo e10s). So very limited. Upon finding issues please report!
+- I tested this in Firefox 35 only. If you find any issues, please report them and I'll see what I can do.
