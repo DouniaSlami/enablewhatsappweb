@@ -5,5 +5,5 @@
   "description": "Removes the checks WhatsApp put in place to disable firefox accessing WhatsApp Web, the new web interface.",
   "author": "Emilio López",
   "license": "MPL 2.0",
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
